@@ -90,22 +90,18 @@ SkyQAccessory.prototype = {
 		var channelStr = channel.toString();		
 
 		this.log('Turning channel to' + channelStr);		
-		var array = [];
+		var array = ["dismiss"];
 		for (var i = 0; i < channelStr.length; i++) {			
 			array.push(channelStr.charAt(i))
 		}
 
 		this.skyQ.press(array, function(err) {
-			if (err) {
+			if (err	) {
 				log('Failed to change channel to ' + channelStr + '. ' + error);
 			}
 			callback();
 		});
 	},
-	
-	// getChannelNumber: function(callback) {
-	// 	callback(null, skyBox.whatsOn().number);
-	// },
 
 	identify: function(callback) {
 
