@@ -1,6 +1,7 @@
 # homebridge-sky-q
 
-[Homebridge](https://github.com/nfarina/homebridge) plugin to turn on/off a Sky Q box.
+Based on [Homebridge](https://github.com/nfarina/homebridge) plugin to turn on/off a Sky Q box.
+Added feature to change channel (work eith Siri). I use Elgato Eve app for define a scene like Channel 501.
 
 ## Installation
 
