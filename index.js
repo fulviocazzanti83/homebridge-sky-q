@@ -18,7 +18,7 @@ module.exports = function(homebridge) {
 		this.setProps({
 			format: Characteristic.Formats.INT,
 			unit: Characteristic.Units.NONE,
-			maxValue: 999,
+			maxValue: 9999,
 			minValue: 101,
 			minStep: 1,
 			perms: [Characteristic.Perms.READ, Characteristic.Perms.WRITE, Characteristic.Perms.NOTIFY]
@@ -99,8 +99,8 @@ SkyQAccessory.prototype = {
 			if (err	) {
 				log('Failed to change channel to ' + channelStr + '. ' + error);
 			}
-			callback();
 		});
+		callback();
 	},
 
 	identify: function(callback) {
