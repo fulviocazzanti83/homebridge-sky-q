@@ -5,7 +5,7 @@ Added feature to change channel (work eith Siri). I use Elgato Eve app for defin
 
 ## Installation
 
-Not published to npm
+npm install homebridge-sky-q-control
 
 ## Configuration
 
