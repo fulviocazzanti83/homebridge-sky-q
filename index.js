@@ -99,8 +99,8 @@ SkyQAccessory.prototype = {
 			if (err	) {
 				log('Failed to change channel to ' + channelStr + '. ' + error);
 			}
+			callback();
 		});
-		callback();
 	},
 
 	identify: function(callback) {
