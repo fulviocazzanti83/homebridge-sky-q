@@ -1,5 +1,5 @@
 {
-  "name": "homebridge-sky-q",
+  "name": "homebridge-sky-q-control",
   "version": "0.0.4",
   "description": "Homebridge plugin for Sky Q box.",
   "main": "index.js",
@@ -24,7 +24,7 @@
   "homepage": "https://github.com/fulviocazzanti83/homebridge-sky-q#readme",
   "dependencies": {
     "sky-remote": "^1.1.0",
-    "sky-q": "^1.0.2"
+    "sky-q": "^1.0.2" 
   },
   "engines": {
     "node": ">=0.12.0",
